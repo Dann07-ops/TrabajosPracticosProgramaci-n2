@@ -1,20 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package trabajopractico5dependenciadeuso;
 
-/**
- *
- * @author User
- */
+
 public class TrabajoPractico5DependenciaDeUso {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Ejercicio 11
+        /**
+        Artista artista = new Artista("La Renga", "Rock");
+        Cancion cancion = new Cancion("El Revelde", artista);
+        Reproductor reproductor = new Reproductor();
+
+        reproductor.reproducir(cancion);**/
+        
+        // Ejercicio 12
+        /**
+        Contribuyente contribuyente = new Contribuyente("Perez Pedro","20-40555999-07");
+        Impuesto impuesto = new Impuesto(40000, contribuyente);
+        Calculadora calculadora = new Calculadora();
+        
+        calculadora.calcular(impuesto);**/
     }
     
 }

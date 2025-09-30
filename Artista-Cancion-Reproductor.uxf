@@ -1,0 +1,21 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>10</x><y>90</y><w>210</w><h>110</h></coordinates><panel_attributes> Artista           
+-
+-  nombre: String         
+-  genero: String         
+-
++ Artista(nombre, genero) 
+-
++ getNombre(): String     
++ getGenero(): String </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>90</y><w>210</w><h>120</h></coordinates><panel_attributes>  Cancion           
+-
+-  titulo: String         
+-  artista: Artista       
+-
++ Cancion(titulo, artista)
+-
++ getTitulo(): String     
++ getArtista(): Artista </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>380</y><w>210</w><h>50</h></coordinates><panel_attributes> Reproductor        
+-
+ +reproducir(c: Cancion): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>200</y><w>60</w><h>200</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;call&gt;&gt;</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>140</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>220;10;10;10</additional_attributes></element></diagram>
