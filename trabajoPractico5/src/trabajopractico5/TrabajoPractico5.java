@@ -67,14 +67,62 @@ public class TrabajoPractico5 {
     System.out.println("Marca de la computadora del propietario: " + propietario.getComputadora().getMarca());**/
     
     // Ejercicio 6
-    
+    /**
     Cliente2 cliente = new Cliente2("Martin JUarez", "1231546698");
     Mesa mesa = new Mesa(10, 5);
     Reserva reserva = new Reserva("29/8/2025", "20:30", cliente, mesa);
     
     System.out.println("Reserva para: " + reserva.getCliente().getNombre());
     System.out.println("Mesa número: " + reserva.getMesa().getNumero());
-    System.out.println("Fecha: " + reserva.getFecha() + " - Hora: " + reserva.getHora());
+    System.out.println("Fecha: " + reserva.getFecha() + " - Hora: " + reserva.getHora());**/
+    
+    // Ejercicio 7
+    /**
+     Motor motor = new Motor("Diesel", "MTR-987654");
+     Vehiculo vehiculo = new Vehiculo("ABC123", "Toyota Hilux", motor);
+     Conductor conductor = new Conductor("Damian Godoy", "LIC-456789");
+
+     vehiculo.setConductor(conductor);
+
+     System.out.println("Conductor del vehículo: " + vehiculo.getConductor().getNombre());
+     System.out.println("Tipo de motor: " + vehiculo.getMotor().getTipo());
+     System.out.println("Modelo del vehículo del conductor: " + conductor.getVehiculo().getModelo());**/
+    
+    // Ejercicio 8
+    /**
+     Usuario2 usuario = new Usuario2("Daniel Torres", "daniel@example.com");
+     FirmaDigital firma = new FirmaDigital("ABC123XYZ", "27/09/2025", usuario);
+     Documento documento = new Documento("Contrato de Servicios", "Contenido legal del contrato...", firma);
+
+    System.out.println("Documento: " + documento.getTitulo());
+    System.out.println("Firmado por: " + documento.getFirma().getUsuario().getNombre());
+    System.out.println("Código de firma: " + documento.getFirma().getCodigoHash()); **/
+    
+    // Ejercicio 9
+    /**
+    Paciente paciente = new Paciente("Damian Gomez", "OSDE");
+    Profesional profesional = new Profesional("Dra. Martínez", "Cardiología");
+    CitaMedica cita = new CitaMedica("01/09/2025", "10:30", paciente, profesional);
+
+    System.out.println("Paciente: " + cita.getPaciente().getNombre());
+    System.out.println("Profesional: " + cita.getProfesional().getNombre());
+    System.out.println("Fecha: " + cita.getFecha() + " - Hora: " + cita.getHora());**/
+    
+    // Ejercicio 10 
+    /**
+    ClaveSeguridad clave = new ClaveSeguridad("AA9987MN", "22/08/25");
+    CuentaBancaria cuenta = new CuentaBancaria("000123456789", 150000.50, clave); 
+    Titular2 titular =  new Titular2("Ramon Zalazar", 16988222);
+    
+    cuenta.setTitular(titular);
+
+    System.out.println("Titular de la cuenta: " + cuenta.getTitular().getNombre());
+    System.out.println("CBU: " + cuenta.getCbu());
+    System.out.println("Código de seguridad: " + cuenta.getClave().getCodigo()); **/
+    
+    
+    
+    
     
  
     }

@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>400</x><y>10</y><w>290</w><h>190</h></coordinates><panel_attributes> CitaMédica 
+-
+-  fecha: String          
+-  hora: String           
+-  paciente: Paciente     
+-  profesional: Profesional
+-
++ CitaMédica(fecha, hora, paciente, profesional)
+-
++ getPaciente(): Paciente 
++ getProfesional(): Profesional
++ getFecha(): String      
++ getHora(): String </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>20</y><w>210</w><h>130</h></coordinates><panel_attributes> Paciente  
+-
+-  nombre: String         
+-  obraSocial: String     
+-
++ Paciente(nombre, obraSocial)
+-
++ getNombre(): String     
++ getObraSocial(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>350</y><w>210</w><h>190</h></coordinates><panel_attributes>  Profesional        
+-
+-  nombre: String         
+-  especialidad: String  
+-
++ Profesional(nombre, especialidad)
+-
++ getNombre(): String     
++ getEspecialidad(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>80</y><w>200</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>190</y><w>40</w><h>180</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element></diagram>
